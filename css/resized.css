@@ -1,0 +1,68 @@
+body{
+	overflow-x: hidden;
+}
+
+	div.left-menu{
+		width: 100%;
+		height: 100px;
+		-webkit-box-shadow: 0px 0px 8px 2px #000000;
+		   -moz-box-shadow: 0px 0px 8px 2px #000000;
+		        box-shadow: 0px 0px 8px 2px #000000;
+	}
+
+			div.left-menu > .logo{
+				margin-top: 8px;
+				margin-left: 2%;
+				height: 80px;
+			}
+		
+			div.nav{
+				margin-top: 25px;
+				position: absolute;
+				width: 90%;
+				margin-left: -40px;
+			}
+			
+				div.nav ul{
+					width: 100%;
+				}
+			
+					div.nav li{
+						float: left;
+						margin-left: 18%;
+						margin-right: -65px;
+					}
+								
+			div.copyright{
+				width: auto;
+				margin-left: 3%;
+				font-size: 4pt;
+				top: 90px;
+			}
+			
+			div.social{
+				float: right;
+				margin-right: 10px;
+				width: 20px;
+				margin-top: 15px;
+			}
+			div.social>img{
+				margin-bottom: 5px;
+			}
+			
+			div.hamburger-dropdown{
+				display: none;
+			}
+
+	
+	.section{
+		width: 100%;
+		padding-top: 100px;
+	}
+	
+			img.main{
+				text-align: right !important;
+			}
+	.carousel{
+		margin-top: 60px;
+	}	

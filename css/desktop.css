@@ -1,0 +1,78 @@
+body{
+	overflow: auto;
+}
+	div.left-menu{
+			width: 100%;
+			height: 100px;
+			-webkit-box-shadow: 0px 0px 8px 2px #000000;
+			   -moz-box-shadow: 0px 0px 8px 2px #000000;
+			        box-shadow: 0px 0px 8px 2px #000000;
+		}
+	
+				div.top-menu > .logo{
+					margin-top: 15px;
+					margin-left: 2%;
+					height: 60px;
+					font-size: 60px;
+					font-family: monospace;
+					color: white;
+				}
+			
+				div.nav{
+					margin-top: 25px;
+					position: absolute;
+					width: 90%;
+					margin-left: -40px;
+				}
+				
+					div.nav ul{
+						width: 100%;
+					}
+				
+						div.nav li{
+							float: left;
+							margin-left: 18%;
+							margin-right: -65px;
+						}
+									
+				div.copyright{
+					width: auto;
+					margin-left: 3%;
+					font-size: 4pt;
+					top: 90px;
+				}
+				
+				div.social{
+					float: right;
+					margin-right: 10px;
+					width: 20px;
+					margin-top: 15px;
+				}
+				div.social>img{
+					margin-bottom: 5px;
+				}
+	
+			
+			div.hamburger-dropdown{
+				display: none;
+			}
+
+	
+	.section{
+		margin-left: 180px;
+	}
+	
+			img.main{
+				text-align: left !important;
+				min-height: 580px;
+			}
+			
+			
+			div#about .photo-gallery img{
+				margin-right: 45px;
+			}
+		
+		.carousel{
+		padding-top: 30px;
+		}
+		
